@@ -1,0 +1,44 @@
+Komentarz:
+/*
+Plugin Name:
+Plugin URI:
+Description:
+Version:
+Requires at least: 4.6
+Author: ASz
+Author URI: http://mojswiat.eu
+License: GPL2
+*/
+
+* jeśli coś jest wewnątrz PHPowej funkcji ale nie jest kodem PHP, to zostanie po prostu wypisane - fragment kodu,skryptu bez zmiennych PHP
+
+add_action( 'hak',  'nazwaFunkcji', [pri], [ilośćParamentrów]);
+https://codex.wordpress.org/Plugin_API/Action_Reference
+
+add_filter( 'hak,'  'nazwaFunkcji', [pri], [ilośćParamentrów]);
+https://codex.wordpress.org/Plugin_API/Filter_Reference
+
+Haki:
+wp_head - wstawia kod między  <head></head>
+
+
+
+Funkcje:
+plugins_url( $ścieżkaPlikuWzględemFoderuPlugins , $DoCzegoŚcieżkaMaByćRelatywna );
+plugins_url( 'images/wordpress.png', __FILE__ );            // względem pliku na który wskazuję
+http://www.example.com/wp-content/plugins/my-plugin/images/wordpress.png
+plugins_url( 'images/wordpress.png', dirname(__FILE__) );   // informacja że podaję katalog który zawiera plik
+http://www.example.com/wp-content/plugins/images/wordpress.png
+
+home_url()	    Home URL	                            http://www.example.com
+site_url()	    Site directory URL	                    http://www.example.com or http://www.example.com/wordpress
+admin_url() 	Admin directory URL	                    http://www.example.com/wp-admin
+includes_url()	Includes directory URL                  http://www.example.com/wp-includes
+content_url()	Content directory URL	                http://www.example.com/wp-content
+plugins_url()	Plugins directory URL	                http://www.example.com/wp-content/plugins
+theme_url()	    Themes directory URL (#18302)	        http://www.example.com/wp-content/themes
+wp_upload_dir()	Upload directory URL (returns an array)	http://www.example.com/wp-content/uploads
+
+get_theme_root()﻿: Returns the address of the theme installation directory
+get_template_directory_uri(﻿): Retrieves the URI to the current theme's files
+

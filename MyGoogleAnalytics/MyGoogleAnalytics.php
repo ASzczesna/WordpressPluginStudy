@@ -2,10 +2,10 @@
 /*
 Plugin Name: MyGoogleAnalytics
 Plugin URI: 
-Description: Dodaje kod G.A. prosto na górê headera
+Description: Dodaje kod G.A. prosto na gÃ³rÄ™ headera
 Version: 0.1 
 Requires at least: 1.0
-Author: Aleksandra Szczêsna
+Author: Aleksandra Szczï¿½sna
 Author URI: http://mojswiat.eu
 License: GPL2
 */

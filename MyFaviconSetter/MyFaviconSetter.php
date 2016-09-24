@@ -2,7 +2,7 @@
 /*
 Plugin Name: MyFaviconSetter
 Plugin URI: 
-Description: Ustawia faviconê na podstawie za³¹czonego w folderze pliku
+Description: Ustawia faviconÄ™ na podstawie zaÅ‚Ä…czonego w folderze pliku
 Version: 0.1 
 Requires at least: 4.6
 Author: ASz
