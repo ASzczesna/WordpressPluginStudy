@@ -5,7 +5,7 @@ Plugin URI:
 Description: Dodaje kod G.A. prosto na górę headera
 Version: 0.1 
 Requires at least: 1.0
-Author: Aleksandra Szcz�sna
+Author: Aleksandra Szczęsna
 Author URI: http://mojswiat.eu
 License: GPL2
 */

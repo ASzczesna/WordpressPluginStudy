@@ -18,12 +18,21 @@ https://codex.wordpress.org/Plugin_API/Action_Reference
 add_filter( 'hak,'  'nazwaFunkcji', [pri], [ilośćParamentrów]);
 https://codex.wordpress.org/Plugin_API/Filter_Reference
 
-Haki:
+=== HAKI ===
 wp_head - wstawia kod między  <head></head>
+the_content -
 
+=== ZMIENNE ===
+$the_content
 
+=== FUNKCJE ===
 
-Funkcje:
+is_front_page()
+get_post_type()
+get_the_title()
+get_permalink()
+
+Zwracające ścieżki do katalogów:
 plugins_url( $ścieżkaPlikuWzględemFoderuPlugins , $DoCzegoŚcieżkaMaByćRelatywna );
 plugins_url( 'images/wordpress.png', __FILE__ );            // względem pliku na który wskazuję
 http://www.example.com/wp-content/plugins/my-plugin/images/wordpress.png
